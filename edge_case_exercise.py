@@ -3,7 +3,7 @@ def move(my_list, direction):
     list_length = len(my_list)
 
     if direction == 'right':
-        if index_of_one + 1 < list_length:
+        if index_of_one + 1 <= list_length:
             my_list[index_of_one] = 0
             my_list[index_of_one + 1] = 1
 

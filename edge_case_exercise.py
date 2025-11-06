@@ -1,11 +1,4 @@
 def move(my_list, direction):
-
-   
-    if my_list.count(1) != 1:
-        return my_list
-    if direction not in ('left', 'right'):
-        return my_list
-
     index_of_one = my_list.index(1)
     list_length = len(my_list)
 

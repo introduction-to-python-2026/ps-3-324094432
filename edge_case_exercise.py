@@ -1,4 +1,6 @@
 def move(my_list, direction):
+    if 1 not in my_list:
+        return my_list
     index_of_one = my_list.index(1)
     list_length = len(my_list)
 
